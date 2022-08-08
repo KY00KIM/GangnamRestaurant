@@ -1,0 +1,96 @@
+.main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1.5fr 6fr;
+  justify-items: center;
+}
+
+header {
+  width: 80%;
+  grid-row: 1;
+  justify-items: center;
+}
+
+header h1 {
+  float: left;
+}
+
+header h5 {
+  float: right;
+}
+
+.todayMenu {
+  width: 80%;
+  height: 100%;
+  background-color: #d8e7ff;
+  display: grid;
+  grid-template-columns: 1.5fr 5fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.todayMenu div.first {
+  grid-column: 1;
+}
+
+.todayMenu h1 {
+  font-weight: 500;
+}
+
+.recommend {
+  grid-column: 2;
+}
+
+.recommend h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.choices {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1.5fr 5fr;
+  align-items: center;
+  justify-items: center;
+  background-color: #f8f8f8;
+}
+
+#classification h1 {
+  font-weight: 500;
+}
+
+.buttons {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.category {
+  float: left;
+  text-align: center;
+}
+
+.icons {
+  width: 36px;
+  height: 36px;
+}
+
+.articles {
+  padding-top: 20px;
+  width: 60%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.articles div {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+  border-radius: 25px;
+}
